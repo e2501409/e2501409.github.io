@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+.gnav > ul > li {
+  display: inline;
+  margin: 0 1% 0 0;
+  padding: 1px 1px;
+  border: 1px solid ;color: black;
+  border-radius: 4px;
+  background: linear-gradient(#FFF, #999);
+}
+
+header{
+  border: 2px solid black; 
+  text-shadow: 1px 1px 0 white;
+}
+
+html{
+  background-image: url(../img/Gemini_Generated_Image_y91a95y91a95y91a.png);
+}
+
+h1{
+  text-shadow: 1px 1px 0 white;
+}
+
+.i::first-letter{
+  font-size: 1.5em;
+}
+
+.i{
+  text-shadow: 1px 1px 0 black;
+  color: white;
+}
+
+h2{
+  text-shadow: 1px 1px 0 white;
+}
+
+div{
+  text-shadow: 1px 1px 0 white;
+
+}
+
+.coffee{
+  border: 5px solid white;
+  border-radius: 8px;
+}
+
+.ro {
+  color: black; 
+  background-color: white;
+}
+
+.container {
+  display: flex; 
+  gap: 20px;     
+}
+
+.ha {
+  display: flex; 
+  gap: 60px;     
+}
+
+.coffee {
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.coffee:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.modal-overlay {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.modal-content {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  max-width: 580px;
+  border-radius: 12px;
+  padding: 30px 24px;
+  box-shadow: 0 10px 25px black;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+.modal-content img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.modal-text-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#modal-title {
+  font-size: 1.3rem;
+  color: brown;
+  margin: 0;
+}
+
+#modal-description {
+  font-size: 0.9rem;
+  color: gray;
+  line-height: 1.5;
+  margin: 0;
+}
+
+#modal-allergy {
+  font-size: 0.8rem;
+  color: gray;
+  margin: 0;
+}
+
+#modal-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: green;
+  margin: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 25px;
+  color: gray;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: black;
+}
+
+.ni{
+  text-shadow: 1px 1px 0 white;
+}
+
+.ho{
+  background-color: white;
+}
+
+a:link{
+  color: white;
+}
+
+a:bisited{
+  color: rgb(11, 17, 184);
+}
